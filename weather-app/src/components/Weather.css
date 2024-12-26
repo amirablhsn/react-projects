@@ -1,0 +1,32 @@
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: skyblue;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: white;
+    width: 300px; /* Adjust as needed */
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-bar img {
+    width: 20px; /* Adjust size */
+    height: 20px;
+    margin-left: 8px;
+    cursor: pointer; /* Optional: makes the icon clickable */
+  }
