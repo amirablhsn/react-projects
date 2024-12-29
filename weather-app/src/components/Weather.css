@@ -1,32 +1,39 @@
 .weather {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: skyblue;
-  }
+  place-self: left;
+  padding: 20px;
+  background: transparent;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: left;
+}
   
-  .search-bar {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 5px;
-    background-color: white;
-    width: 300px; /* Adjust as needed */
-  }
-  
-  .search-bar input {
-    border: none;
-    outline: none;
-    flex: 1;
-    padding: 8px;
-    font-size: 16px;
-  }
-  
-  .search-bar img {
-    width: 20px; /* Adjust size */
-    height: 20px;
-    margin-left: 8px;
-    cursor: pointer; /* Optional: makes the icon clickable */
-  }
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: transparent;
+}
+
+.search-bar input {
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding-left: 25px;
+  color: black;
+  background: white;
+  font-size: 18px;
+}
+
+.search-bar img {
+  width: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  background: white;
+}
+
+.search-icon {
+  width: 20px;
+  height: auto;
+  background: transparent;
+}
