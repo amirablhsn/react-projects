@@ -16,9 +16,25 @@ const Weather = () => {
         <input type="text" placeholder='Search'/>
         <img className="search-icon" src={search_icon} alt="Search Icon" />
       </div>
+      <p className="location">Toronto, ON, CA</p>
       <img className="weather-icon" src={clear_icon} alt="" />
       <p className="temperature">20°C</p>
-      <p className="location">Toronto, ON, CA</p>
+      <div className="weather-data">
+        <div className="col">
+          <img src={humidity_icon} alt="" />
+          <div>
+            <span>Humidity</span>
+            <p>91%</p>
+          </div>
+        </div>
+        <div className="col">
+          <img src={wind_icon} alt="" />
+          <div>
+            <span>Wind Speed</span>
+            <p>10 km/h</p>
+          </div>
+        </div>
+      </div>
     </div>
   ) 
 }
